@@ -1,0 +1,278 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagenes/BACK-12.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    font-size: 17px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: normal;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 5px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: white;
+        border-bottom: 0.2px solid #e6e6e6;
+        height: 100px;
+    }
+
+.navbar-brand {
+  margin-top: 0;
+  margin-left: 0;
+  padding-top: 0;
+}
+
+    .top-nav-collapse {
+        padding: 0;
+          }
+
+.logo {
+  position: relative;
+  top: 0px;
+}
+
+.nave {
+  position: relative;
+  top: 15px;
+  left: 70px;
+}
+
+.redes {
+  margin-top: 100px;
+  padding-left: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /*flex-direction: column;*/
+
+}
+/*.redes-1 {
+    margin: 5px;
+}
+.redes-2 {
+    margin: 5px;
+}
+.redes-3 {
+    margin: 5px;
+}
+.redes-4 {
+    margin: 5px;
+}*/
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.introduccion {
+    height: 100%;
+    padding-top: 200px;
+    margin-top: 70px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    color: #141516;
+    text-align:center;
+}
+.chance {
+  height: 100%;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-right: 380px;
+  font-size: 25px;
+  font-family: 'Pompiere', sans-serif;
+  font-weight: bolder;
+  color: #334b60;
+  text-align:center;
+}
+
+.boton1 {
+  background-color: inherit;
+  background-image: none;
+  border: none;
+  position: relative;
+  left:300px;
+}
+
+.titulo {
+  height: 100%;
+  padding-top: 100px;
+  /*padding-right: 110px;*/
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Pompiere', cursive;
+  color: #435c76;
+
+}
+
+.resumen {
+  height: 100%;
+  padding-top: 10px;
+  /*padding-right: 110px;*/
+  margin-bottom: 150px;
+
+  text-align: center;
+  color: #141516;
+
+}
+
+.boton2 {
+  background-color: inherit;
+  background-image: none;
+  border: none;
+  margin-bottom: 95px;
+  position: relative;
+  left:520px;
+  top: -10px;
+
+}
+
+
+/*.proyectos {
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  text-align: center;
+  color: #ede714;
+
+}*/
+
+
+.galeria {
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.imagenes-top{
+  margin-top: 100px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  /*flex-direction: row;
+  flex-direction: column;*/
+}
+
+
+.imagenes-down{
+  margin-top: 50px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+
+.footer{
+  background-color: none;
+  margin: 87px;
+}
+.contacto {
+  display: flex;
+  width: 250px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+}
+.contacto img {
+  display: block;
+  position: relative;
+  top: 0px;
+  right: 30px;
+}
+
+.contacto strong {
+  display: block;
+}
+
+.contacto a {
+  color: #435c76;
+  text-decoration:none;
+  margin: 10px, 10px, 10px, 0px;
+  display: flex;
+  flex-direction:column;
+  padding: 10px;
+}
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.formulario {
+  display: grid;
+  width: 800px;
+  color: #435c76;
+  padding-right: 420px;
+
+}
+
+
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -20px;
+}
+
+.col1 {
+  margin-right: 5px;
+  padding: 10px;
+}
+.col2 {
+position: relative;
+top: -20px;
+
+}
+.boton3 {
+  height: 25px;
+  width: 70px;
+  border-radius: 5px;
+  border: none;
+  background: #435c76;
+  color: white;
+  padding:6px 3px;
+  margin-bottom:0;
+  font-size:14px;
+  font-weight:400;
+  text-align:center;
+  white-space:nowrap;
+  vertical-align:middle;
+  touch-action:manipulation;
+  cursor:pointer;
+
+}
+
+.intereses label {
+  font-size: 14px;
+  display: flex;
+
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.sexo {
+  margin-top: 10px;
+}

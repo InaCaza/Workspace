@@ -1,0 +1,116 @@
+/* ====================================================
+
+	File Name: Red Theme (red-theme.css)
+	Description: Red theme for Canvas
+	Author: Donny Burnside
+	Author URI: http://www.donnyburnside.co.uk
+	Version: 1.0.0
+	License: GNU General Public License v3.0
+	License URI: http://www.gnu.org/licenses/gpl.html
+
+	Canvas - A Free Website Template by Donny Burnside
+	Copyright 2015 Donny Burnside
+	Distributed under the terms of the GNU GPL
+
+	For help and support please visit http://www.donnyburnside.co.uk
+
+   ==================================================== */
+
+/* ====================================================
+	Accent Colour (Links, buttons, borders, etc)
+   ==================================================== */
+
+
+
+/* Colour */
+a,
+.post .entry-title,
+.author-name,
+.posts-by-author-title {
+		color: #ff8b62;
+}
+
+/* Background Colour */
+#masthead{
+	background-image: url('../mh-home-02.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 350px;
+}
+#isotope-menu,
+.isotope-item a .overlay,
+.project-description-title:after,
+.project-details-title:after,
+button,
+.button,
+input[type="submit"],
+input[type="cancel"],
+::selection {
+	background-color: #ff8b62;
+
+}
+
+#content{
+	background-color: pink;
+	/*background-image: url('../BACK-03.png');*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: top;
+}
+#intro {
+	height: 450px;
+}
+
+#page-title .entry-title {
+	color: #ff8b62;
+	text-shadow: -3px 1px #1E1E1E;
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Pompiere', cursive;
+  color: white;
+	text-shadow: -2px 1px #999;
+	padding-top: -100px;
+}
+
+.introduccion {
+    padding-top: 150px;
+    font-size: 20px;
+		line-height: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    color: #141516;
+
+}
+.chance {
+  padding-top: 40px;
+  font-size: 25px;
+  font-family: 'Pompiere', sans-serif;
+  font-weight: bolder;
+  color: #334b60;
+
+}
+
+#blog {
+	height: 250px;
+}
+
+
+
+.resumen {
+  padding-top: 10px;
+  margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 25px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bolder;
+  color: #141516;
+
+}
+
+/* Borders */
+#prefooter {
+	border-color:#ff8b62;
+}

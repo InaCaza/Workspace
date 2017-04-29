@@ -25,11 +25,17 @@ a,
 .post .entry-title,
 .author-name,
 .posts-by-author-title {
-	color:#F09A4D;
+	color:#FF9C52;
 }
 
 /* Background Colour */
-#masthead,
+#masthead{
+	background-image: url('../mh-home-04.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 350px;
+}
+
 #isotope-menu,
 .isotope-item a .overlay,
 .project-description-title:after,
@@ -39,10 +45,10 @@ button,
 input[type="submit"],
 input[type="cancel"],
 ::selection {
-	background-color:#F09A4D;
+	background-color:#FF9C52;
 }
 
 /* Borders */
 #prefooter {
-	border-color:#F09A4D;
+	border-color:#FF9C52;
 }

@@ -1,0 +1,86 @@
+/* ====================================================
+
+	File Name: Orange Theme (orange-theme.css)
+	Description: Orange theme for Canvas
+	Author: Donny Burnside
+	Author URI: http://www.donnyburnside.co.uk
+	Version: 1.0.0
+	License: GNU General Public License v3.0
+	License URI: http://www.gnu.org/licenses/gpl.html
+
+	Canvas - A Free Website Template by Donny Burnside
+	Copyright 2015 Donny Burnside
+	Distributed under the terms of the GNU GPL
+
+	For help and support please visit http://www.donnyburnside.co.uk
+
+   ==================================================== */
+
+/* ====================================================
+	Accent Colour (Links, buttons, borders, etc)
+   ==================================================== */
+
+/* Colour */
+a,
+.post .entry-title,
+.author-name,
+.posts-by-author-title {
+	color:#121623;
+}
+
+/* Background Colour */
+#masthead{
+	background-image: url('../mh-home-03.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 350px;
+}
+
+#isotope-menu,
+.isotope-item a .overlay,
+.project-description-title:after,
+.project-details-title:after,
+button,
+.button,
+input[type="submit"],
+input[type="cancel"],
+::selection {
+	background-color:#121623;
+}
+
+
+#page-title .entry-title {
+	color: white;
+	text-shadow: -3px 1px #2B4768;
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+	letter-spacing: 1px;
+  font-weight: bolder 100;
+}
+#page-title .description {
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+  font-weight: bolder 400;
+}
+
+#content{
+	background-image: url('../BGcontent.png');
+	background-repeat: no-repeat;
+	background-position:bottom;
+	width: auto;
+	height: auto;
+}
+
+@media all and (max-width: 700px){
+	#content {
+		 width:100%;
+		 height:100%;
+		}
+	}
+
+/* Borders */
+#prefooter {
+	border-color:#121623;
+}

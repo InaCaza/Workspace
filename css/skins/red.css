@@ -27,12 +27,12 @@ a,
 .post .entry-title,
 .author-name,
 .posts-by-author-title {
-		color: #ff8b62;
+		color: #E74C4E;
 }
 
 /* Background Colour */
 #masthead{
-	background-image: url('../mh-home-02.png');
+	background-image: url('../mh-home-01.png');
 	background-position: top;
 	background-repeat: no-repeat;
 	height: 350px;
@@ -46,71 +46,98 @@ button,
 input[type="submit"],
 input[type="cancel"],
 ::selection {
-	background-color: #ff8b62;
+	background-color: #E74C4E;
 
+}
+
+
+#page-title .entry-title {
+	color: white;
+	text-shadow: -3px 1px #2B4768;
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+	letter-spacing: 1px;
+  font-weight: bolder 100;
+}
+#page-title .description {
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+  font-weight: bolder 400;
 }
 
 #content{
-	background-color: pink;
-	/*background-image: url('../BACK-03.png');*/
+	background-image: url('../BGcontent_Index.png');
 	background-repeat: no-repeat;
-	background-position: center;
 	background-position: top;
+	width: auto;
+	height: 700px;
 }
+
 #intro {
 	height: 450px;
 }
 
-#page-title .entry-title {
-	color: #ff8b62;
-	text-shadow: -3px 1px #1E1E1E;
-}
-
-.titulo {
-  font-size: 30px;
-  font-weight: bold;
-  font-family: 'Pompiere', cursive;
-  color: white;
-	text-shadow: -2px 1px #999;
-	padding-top: -100px;
-}
-
 .introduccion {
-    padding-top: 150px;
-    font-size: 20px;
-		line-height: 25px;
-    font-family: 'Dosis', sans-serif;
-    font-weight: bolder;
-    color: #141516;
+  padding-top: 120px;
+  font-size: 18px;
+	line-height: 25px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bolder 100;
+	letter-spacing: 1px;
+  color: #141516;
 
 }
 .chance {
-  padding-top: 40px;
-  font-size: 25px;
+  padding-top: 30px;
+  font-size: 23px;
   font-family: 'Pompiere', sans-serif;
   font-weight: bolder;
+	letter-spacing: 1px;
   color: #334b60;
 
 }
 
 #blog {
 	height: 250px;
-}
-
+	}
 
 
 .resumen {
-  padding-top: 10px;
-  margin-bottom: 20px;
-	font-size: 20px;
-	line-height: 25px;
-	font-family: 'Dosis', sans-serif;
+	font-size: 17px;
+	line-height: 20px;
+	font-family: 'Nixie One', cursive;
 	font-weight: bolder;
+	letter-spacing: 0.5px;
   color: #141516;
 
-}
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	background-color: white;
+	-webkit-border-radius:60px;
+	-moz-border-radius: 10px 10px;
+	width: 40%; height: 10%;
+   filter:alpha(opacity=20);
+   -moz-opacity:0.2;
+   opacity: 0.9;
+			}
+
+		@media all and (max-width: 700px){
+		  .resumen{
+			   width:100%;
+			   height:100%;
+			  }
+			}
+
+
 
 /* Borders */
 #prefooter {
-	border-color:#ff8b62;
+	border-color:#E74C4E;
+
 }

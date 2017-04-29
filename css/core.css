@@ -1049,6 +1049,7 @@ input[type="cancel"] {
 	#prefooter {
 		padding:64px 0;
 		padding:4rem 0;
+
 	}
 
 }
@@ -1058,7 +1059,7 @@ input[type="cancel"] {
    Prefooter Widgets
 */
 #prefooter .widget {
-	font-size:14px;
+	font-size:17px;
 	font-size:0.875rem;
 }
 #prefooter .widget .widget-title {
@@ -1075,7 +1076,7 @@ input[type="cancel"] {
 
 }
 .contact-widget .name {
-	font-size:16px;
+	font-size:17px;
 	font-size:1rem;
 	color:#333;
 }
@@ -1110,7 +1111,7 @@ input[type="cancel"] {
 .contact-widget .rating {
 	margin:16px 0;
 	margin:1rem 0;
-	font-size:10px;
+	font-size:12px;
 	font-size:0.6875rem;
 }
 .contact-widget .rating .rating-stars {}
@@ -1171,7 +1172,7 @@ input[type="cancel"] {
 	height:auto;
 }
 .recent-posts-widget .recent-post-summary {
-	font-size:12px;
+	font-size:17px;
 	font-size:0.75rem;
 	color:#999;
 }

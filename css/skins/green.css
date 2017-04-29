@@ -29,7 +29,13 @@ a,
 }
 
 /* Background Colour */
-#masthead,
+#masthead{
+	background-image: url('../mh-home-05.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 350px;
+}
+
 #isotope-menu,
 .isotope-item a .overlay,
 .project-description-title:after,
